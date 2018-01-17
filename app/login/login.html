@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../../css/eip.min.css" />
+		<link href="login.css" rel="stylesheet"/>
+	</head>
+
+	<body>
+		<div class="header" style="margin-top: 50px;">
+			<span class="school-name" style="font-size: 18px;">小蜜蜂微管理系统</span><br/>
+		</div>
+		<div class="logo">
+			<img src="images/timg.png" onerror="this.src='images/logo.png'" height="100px" width="100px">
+		</div>
+		<div class="input-area">
+			<div class="name field">
+				<span class="iconfont icon-e60213"></span>
+				<input class="input" type="text" size="12" placeholder="用户名/手机号">
+			</div>
+			<div class="pwd field">
+				<span class="iconfont icon-mima"></span>
+				<input class="input" size="12" type="password" placeholder="密码">
+			</div>
+		</div>
+		
+		<div class="login-extra">
+			<div class="remember-pwd" > 
+				<div class="mui-input-row mui-checkbox mui-left" style="padding-left: -10px;">
+				  <label style="padding-left: 35px;">记住密码</label>
+				  <input style="left: 0px;" type="checkbox" checked >
+				</div>
+			</div>
+			<!--<span class="forget-pwd"> <i18n key ="Forget password"></i18n> </span>-->
+		</div>
+		<div class="login-btn">
+			<button> 登录 </button>
+		</div>
+
+		<div class="login-other">
+			<span class="title-prev"></span><span class="other-title"> 其他方式登录 </span><span class="title-next"></span>
+			<div class="btn-area">
+				<div style="display: inline-block;" class="oauth-area">
+					<div title="QQ" class="btn"><i class="iconfont icon-qq1"></i></div>
+					<div title="Wechat" class="btn"><i class="iconfont icon-weixin"></i></div>
+					<div title="SinaWeiBo" class="btn"><i class="iconfont icon-weibo2"></i></div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	<script src="../../js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/mui.enterfocus.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/app.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/eip.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="login.js" type="text/javascript" charset="UTF-8"></script>
+	<script type="text/javascript">
+		mui.init();
+		eip.init();
+		aolong.mobile.login.init();
+	</script>
+
+</html>

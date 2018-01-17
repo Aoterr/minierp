@@ -1,0 +1,68 @@
+.mui-content.mui-scroll-wrapper {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	height: 100%;
+}
+
+header.mui-bar-nav {
+	box-shadow: none;
+}
+
+.text-muted {
+	color: #777;
+}
+
+.text-primary {
+	color: #337ab7;
+}
+
+.text-success {
+	color: #3c763d;
+}
+
+.text-info {
+	color: #31708f;
+}
+
+.text-warning {
+	color: #8a6d3b;
+}
+
+.text-danger {
+	color: #a94442;
+}
+
+.label {
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+}
+.label.label-default{
+	background-color: #777;
+}
+.label.label-primary{
+	background-color: #337ab7;
+}
+.label.label-success{
+	background-color: #3c763d;
+}
+.label.label-info{
+	background-color: #31708f;
+}
+.label.label-warning{
+	background-color: #F0AD4F;
+}
+.label.label-danger{
+	background-color: #a94442;
+}
